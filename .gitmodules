@@ -1,0 +1,4 @@
+[submodule "drvAsynI2C"]
+	path = drvAsynI2C
+	url = https://github.com/icshwi/drvAsynI2C.git
+	ignore = all
