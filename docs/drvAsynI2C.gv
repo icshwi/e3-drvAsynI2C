@@ -1,0 +1,9 @@
+digraph drvAsynI2C {
+node [shape=record];
+base [label="base 7.0.3"]
+require [label="require 3.1.1"]
+ASYN [label="ASYN 4.36.0"]
+drvAsynI2C [label="drvAsynI2C 1.0.2"]
+base -> require -> { ASYN } ->  {  drvAsynI2C  } 
+} 
+
